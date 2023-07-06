@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .container {
+    display: flex;
+    padding: 0 20%;
+  }
+  
+  aside {
+    width: 30%;
+    background-color: rgb(49, 49, 134);
+    padding: 5%;
+    color: white;
+  }
+  
+  main {
+    width: 70%;
+    background-color: rgb(230, 230, 230);
+    padding: 5%;
+  }
+  
+  .fotoperfil img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    margin-bottom: 30px;
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .margin-title {
+    margin: 40px 0 10px 0;
+  }
+  
+  .font-size {
+    font-size: 10px;
+    margin-bottom: 3px;
+  }
+  
+  .contact img {
+    margin-right: 8px;
+  }
+  
+  .contact div {
+    margin-bottom: 10px;
+  }
+  
+  .skills img {
+    margin-right: 4px;
+  }
+  
+  .margin-skills {
+    margin-bottom: 1px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: rgb(49, 49, 134);
+  }
+  
+  hr {
+    width: 10%;
+    background-color: slategray;
+    border-style: none;
+    height: 4px;
+    margin: 2% 0;
+  }
+  h2,
+  section h3 {
+    color: steelblue;
+  }
+  p { 
+    text-align: justify;
+  }
+  
+  .margin{
+    margin-right: 20px;
+  }
